@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1c2d;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #081321;
+}
+
+.logo {
+  height: 155px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(#0b1c2d, #132f4c);
+}
+
+.btn {
+  background: red;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 15px;
+  padding: 30px;
+}
+
+.cards div {
+  background: #132f4c;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.content {
+  padding: 40px;
+}
+
+.whatsapp {
+  display: inline-block;
+  margin-top: 20px;
+  background: #25D366;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #081321;
+}
+.animated-logo {
+  animation: logoFade 2s ease-in-out;
+}
+
+@keyframes logoFade {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+button.btn {
+  width: 100%;
+}
